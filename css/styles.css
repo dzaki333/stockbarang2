@@ -1,0 +1,70 @@
+body.bg-primary {
+    background-color: #007bff;
+    background-image: url('background.png'); 
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#layoutAuthentication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;       /* full height viewport */
+    width: 100vw;        /* full width viewport */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: white;
+}
+
+.card-header h3 {
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.form-control {
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.card-footer .small a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-footer .small a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
